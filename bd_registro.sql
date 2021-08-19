@@ -14,7 +14,7 @@ nomtarea varchar (30),
 id_usuario  int,
 foreign key (id_usuario) references usuarios(id_usuario));
 -------------------------------------------------------------------
-INSERT INTO usuarios VALUES('01','brus','brus@gmail.com','123b');
+INSERT INTO usuarios VALUES('01','brus','brus@gmail.com','123b');                                      
 INSERT INTO usuarios VALUES('02','oscar','oscar@gmail.com','123o');
 
 INSERT INTO tareas VALUES('01','dormir','01');

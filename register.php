@@ -12,7 +12,7 @@ $insertar="INSERT INTO usuarios(usuario,correo,contraseña)VALUES('$usuario','$c
 $verificar_correo = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo = '$correo'");
 if(mysqli_num_rows($verificar_correo) > 0){
     echo '<Script>
-    alert("El correo ya esta esta en uso intente con otro");
+    alert("El correo ya esta esta en uso intente denuevo");
     window.history.go(-1);
     </Script>';
     exit;

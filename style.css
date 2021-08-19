@@ -1,4 +1,4 @@
-body {
+/*body {
     background: rgb(14,107,95);
  background: linear-gradient(90deg, rgba(14,107,95,0.927608543417367) 100%, rgba(1,213,196,1) 100%);
  }
@@ -7,7 +7,7 @@ body {
      max-width: 600px;
  }
  
- /* Changed text and color for better UI which wasnt clearly visible*/
+ /* Changed text and color for better UI which wasnt clearly visible*//*
  .form-control::placeholder{
      color: rgb(0, 0, 0);
  }
@@ -36,3 +36,4 @@ body {
  .checkbox .selected {
      font-weight: bold;
  }
+*/

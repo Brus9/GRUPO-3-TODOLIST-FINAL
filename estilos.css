@@ -1,91 +1,86 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-size: cover;
-    background-attachment: fixed;
-    
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-size: cover;
+
+  background: url("img/empleados.jpg") no-repeat center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
 }
 
-.contenedor{
-    width: 100%;
-    padding: 15px;
+.contenedor {
+  width: 100%;
+  padding: 15px;
 }
 
-h1{
+h1 {
+  text-align: center;
+  color: #17da9f;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
     text-align: center;
-    color: #1a2537;
-    font-size: 30px;
-}
+    color: #17da9f;
+    font-size: 15px;
+  }
 input[type="text"],
-input[type="password"]{
-    font-size: 20px;
-    width: 82%;
-    padding: 10px;
-    border: none;
+input[type="password"] {
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: none;
 }
-.input-contenedor{
-    margin-bottom: 10px;
-    border: 1px solid #aaa;
-}
-
-.button{
-    border: none;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    background:  #1a2537;
-    padding: 15px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.button:hover{
-    background: cadetblue;
-}
-p{
-    text-align:center;
-}
-.link{
-    text-decoration: none;
-      color: #1a2537;
-    font-weight: 600;
-}
-.link:hover{
-     color: cadetblue;
-}
-@media(min-width:768px)
-{
-    .formulario{
-        margin: auto;
-        width: 300px;
-        margin-top: 150px;
-        border-radius: 2%;
-    }
+.input-contenedor {
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
 }
 
+.button {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background: #1a2537;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background: cadetblue;
+}
+p {
+  text-align: center;
+  color: #17da9f;
+  font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.link {
+  text-decoration: none;
+  color: #1a2537;
+  font-weight: 600;
+}
+.link:hover {
+  color: cadetblue;
+}
+@media (min-width: 768px) {
+  .formulario {
+    width: 300px;
+    border-radius: 2%;
+  }
+}
+.app {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-position: center !important;
+  line-height: 15px !important;
+  width: 340px !important;
+  height: 350px !important;
+  padding: 10px;
+  border-radius: 20px !important;
+  justify-content: center !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: 95px !important;
+}
