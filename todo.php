@@ -33,7 +33,7 @@
       <thead>
         <tr>
           <th>ID TAREA</th>
-          <th>NOMBRE TAREA</th>
+          <th>NOMBRE TAREA</th>g
           <th>ID DE USUARIO</th>
           <th>EDITAR / ELIMINAR</th>
         </tr>
@@ -97,7 +97,7 @@
       <div>
         <br>
         <input type="submit" value="Agregar Tarea" class="btn btn-success float-right" name="btnGuardar">
-        <p><a href="index.php" style="color:black">Cerrar Sesión</a></p>
+        <p><a href="index.php" style="color:black" class="btn btn-primary float-left" >Cerrar Sesión</a></p>
       </div>
       <?php mysqli_close($conexion); ?>
     </div>
