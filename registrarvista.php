@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="input-contenedor">
-                    <input type="password" name="contraseña" placeholder="Contraseña" required>
+                   <input type="password" name="contraseña" placeholder="Contraseña" required>
                 </div>
                 <input type="submit" value="Registrate" class="button">
 

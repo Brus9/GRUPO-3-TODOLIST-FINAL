@@ -91,7 +91,7 @@
                     <div class="row">
                       <div class="col-12">
                         <br>
-                        <a href="todo.php" class="btn btn-secondary">Cancelar</a>
+                        <a href="iindex.php" class="btn btn-secondary">Cancelar</a>
                         <input type="submit" value="ACEPTAR" class="btn btn-success float-right" name="btnAceptar">
                       </div>
                     </div>

@@ -13,7 +13,7 @@ $filas = mysqli_num_rows($resultado);
 
 if ($filas) {
 
-  header("location:todo.php");
+  header("location:iindex.php");
 } else {
 ?>
   <?php

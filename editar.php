@@ -97,7 +97,7 @@
                   <div class="row">
                     <div class="col-12">
                       <br>
-                      <a href="todo.php" class="btn btn-secondary">REGRESAR</a>
+                      <a href="iindex.php" class="btn btn-secondary">REGRESAR</a>
                       <input type="submit" value="Guardar" class="btn btn-success float-right" name="btnGuardar">
                     </div>
                   </div>

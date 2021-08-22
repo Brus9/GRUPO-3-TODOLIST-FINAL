@@ -1,0 +1,28 @@
+body {
+  background: url("../img/noche.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; /imagen de fondo bien centrado y dividido/
+  line-height: 15px;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 12pt;
+  color: #ffffff; /formato de las letra/ 
+}
+
+.contenedor {
+  height: 720px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* flex-direction: column; */
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;/borde del cuadrado/
+  line-height: 15px;
+  width: 500px;
+  height: 350px; 
+  margin: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
