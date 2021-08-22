@@ -94,6 +94,11 @@
         <input type="text" id="inputName" class="form-control" name="ID" value="<?php echo $usuarios['id_usuario']; ?>" disabled>
       </div>
 
+      <div class="form-group">
+        <label for="inputName">BUSCAR USUARIO</label>
+        <input type="text" id="inputName" class="form-control" name="Tarea">
+      </div>
+
       <div>
         <br>
         <input type="submit" value="Agregar Tarea" class="btn btn-success float-right" name="btnGuardar">
