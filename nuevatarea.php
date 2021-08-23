@@ -89,5 +89,7 @@ include ('conexion.php');
           <input type="submit" value="Guardar" class="btn btn-success float-right" name="btnGuardar">
         </div>
       </div>
+      <button i class=btn1>Regresar</button>
+      <body <center><img src="https://lh3.googleusercontent.com/proxy/Y3mimR_nz9B_f1aLLdnNEJunRk4d3UYwTV-nA0eSnXCd0ws1B1kX7Ri3w6oZ7DQD4KMNQwrUKWEGW7WvwdnTIQeh_I5yvsbS2XbBMwAKV0bSXW83f5qV4unM8uA" alt=""></center>>
 </body>
 </html>   
