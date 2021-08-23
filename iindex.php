@@ -81,6 +81,7 @@
         <tr>
           <th>ID TAREA</th>
           <th>NOMBRE TAREA</th>
+          <th>CORREO</th>
           <th>ID DE USUARIO</th>
           <th>EDITAR / ELIMINAR</th>
         </tr>
@@ -90,6 +91,7 @@
           <tr>
             <td><?php echo $registro['id_tareas']; ?></td>
             <td><?php echo $registro['nomtarea']; ?></td>
+            <td><?php echo $registro['nomcorreo']; ?></td>
             <td><?php echo $registro['id_usuario']; ?></td>
             <?php $nombre = $registro['usuario']; ?>
             <td>

@@ -17,10 +17,10 @@ foreign key (id_usuario) references usuarios(id_usuario));
 INSERT INTO usuarios VALUES('01','brus','brus@gmail.com','123b');                                      
 INSERT INTO usuarios VALUES('02','oscar','oscar@gmail.com','123o');
 
-INSERT INTO tareas VALUES('01','dormir','01');
-INSERT INTO tareas VALUES('02','trabajar','01');
-INSERT INTO tareas VALUES('03','correr','02');
-INSERT INTO tareas VALUES('04','dormir','02');
+INSERT INTO tareas VALUES('01','dormir','jacobs@gmail.com','01');
+INSERT INTO tareas VALUES('02','trabajar','jacobs@gmail.com','01');
+INSERT INTO tareas VALUES('03','correr','lucas@gmail.com','02');
+INSERT INTO tareas VALUES('04','dormir','lucas@gmail.com','02');
 -----------------------------------------------------------------------
 -- PROCEDIMIENTO ALAMCENADO AGRGAR TAREA--
 DROP PROCEDURE IF EXISTS sp_insertar_tareas;
